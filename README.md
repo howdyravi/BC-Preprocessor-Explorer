@@ -37,9 +37,12 @@
 
 ---
 ## 📸 Screenshots
+### 🧭 Find the Command
 
-### Explorer View
-![Tree View](media/command_pallet.png)
+![Command Pallet](media/command_pallet.png)
 
-### Code Navigation
-![Go to Symbol](media/output.png)
+### 🌲 Explorer Tree View
+
+Shows all detected preprocessor symbols in a collapsible tree, grouped and sorted:
+
+![Tree View](media/output.png)
