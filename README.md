@@ -1,7 +1,5 @@
 # AL Preprocessor Explorer
 
-![Logo](https://drive.google.com/file/d/1SH4OxGkl2SfhS2-Gh7iDCMYgLrwi0jl1/view?usp=drive_link)
-
 > Visual Studio Code extension for discovering and navigating AL preprocessor symbols with ease.
 
 ---
@@ -30,10 +28,18 @@
 ---
 
 ## 📂 Example
-
 ```al
 #define CLEAN26
 
 #if not CLEAN26 and CLEAN27
     // conditional logic
 #endif
+
+---
+## 📸 Screenshots
+
+### Explorer View
+![Tree View](media/command_pallet.png)
+
+### Code Navigation
+![Go to Symbol](media/output.png)
