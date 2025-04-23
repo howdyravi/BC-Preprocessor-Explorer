@@ -26,16 +26,6 @@
 5. Check the **"AL Preprocessor Explorer"** view on the left side panel.
 
 ---
-
-## 📂 Example
-```al
-#define CLEAN26
-
-#if not CLEAN26 and CLEAN27
-    // conditional logic
-#endif
-
----
 ## 📸 Screenshots
 ### 🧭 Find the Command
 
@@ -46,3 +36,12 @@
 Shows all detected preprocessor symbols in a collapsible tree, grouped and sorted:
 
 ![Tree View](media/output.png)
+---
+
+## 📂 Example
+```al
+#define CLEAN26
+
+#if not CLEAN26 and CLEAN27
+    // conditional logic
+#endif
