@@ -3,7 +3,7 @@
   "displayName": "AL Preprocessor Explorer",
   "description": "This help you navigate and manage preprocessor directives in AL (Microsoft Dynamics 365 Business Central) projects.",
   "publisher": "RaviVerma",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "icon": "media/Logo.png",
   "repository": {
     "type": "git",
@@ -37,6 +37,15 @@
             "light": "media/collapse-light.svg",
             "dark": "media/collapse-dark.svg"
           }
+        },
+        {
+          "command": "al-preprocessor-explorer.refresh",
+          "when": "view == alPreprocessorExplorer.treeView",
+          "group": "navigation",
+          "icon": {
+            "light": "media/refresh-light.svg",
+            "dark": "media/refresh-dark.svg"
+          }
         }
       ]
     },
@@ -56,20 +65,31 @@
           "light": "media/collapse-dark.svg",
           "dark": "media/collapse-light.svg"
         }
+      },
+      {
+        "command": "al-preprocessor-explorer.refresh",
+        "title": "Refresh Symbols",
+        "icon": {
+          "light": "media/refresh-light.svg",
+          "dark": "media/refresh-dark.svg"
+        }
       }
-    ],
-    "scripts": {
-      "lint": "eslint .",
-      "pretest": "npm run lint",
-      "test": "vscode-test"
-    },
-    "devDependencies": {
-      "@types/vscode": "^1.0.0",
-      "@types/mocha": "^10.0.10",
-      "@types/node": "20.x",
-      "eslint": "^9.23.0",
-      "@vscode/test-cli": "^0.0.10",
-      "@vscode/test-electron": "^2.4.1"
-    }
-  }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.0.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^9.23.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  },
+  "resources": [
+    "media/folder.svg"
+  ]
 }
