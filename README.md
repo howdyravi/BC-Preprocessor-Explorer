@@ -1,6 +1,10 @@
 # AL Preprocessor Explorer
 
-> Visual Studio Code extension for discovering and navigating AL preprocessor symbols with ease.
+![VS Code](https://img.shields.io/badge/VISUAL%20STUDIO%20CODE-AL%20Extension-blue?logo=visualstudiocode&logoColor=white)
+![Language](https://img.shields.io/badge/language-AL-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+> Visual Studio Code extension for discovering and navigating AL preprocessor symbols (Pragmas) with ease.
 
 ---
 
